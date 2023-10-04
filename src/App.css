@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+html , body{
+    overflow-x: hidden;
+}
+.bgimage{
+    background: rgb(255, 255, 255);
+    
+}
+.imageshadow{
+    box-shadow: -20px -20px 0px 0px #FFFFFF;
+}
+.videoshadow{
+    box-shadow: 20px 20px 0px 0px #F5F5F5;
+    box-shadow: 8px 8px 0px 0px #F5F5F5;
+
+
+}
+.videoshadowSm  {
+    box-shadow: 8px 8px 0px 0px #F5F5F5;
+}
+.timelineGradient{
+    background: linear-gradient(117.82deg, #9CECFB -9.12%, #65C7F7 48.59%, #0052D4 106.3%);
+
+}
+.timelineshadow{
+    box-shadow: 20px 20px 0px 0px #FFFFFF;
+
+}
+.shadowYellow{
+    box-shadow: 12px 12px 0px 0px #FFD60A;
+
+}
+.borderFooter{
+    border: 1px solid #2C333F
+}
+.endingborder
+{border: 1px solid #2C333F}
+.highlightedGrad{
+    background: linear-gradient(118.19deg, #1FA2FF -3.62%, #12D8FA 50.44%, #A6FFCB 104.51%),
+    /* linear-gradient(0deg, #F1F2FF, #F1F2FF); */
+
+}
+.bgGradient{
+    background: linear-gradient(118.19deg, #1FA2FF -3.62%, #12D8FA 50.44%, #A6FFCB 104.51%);
+
+}
+
+.formshadow{
+    box-shadow: 0px -1px 0px 0px #FFFFFF2E inset;
+    
+}
+.textgradientPink{
+    background: linear-gradient(117.95deg, #833AB4 -2.4%, #FD1D1D 52.25%, #FCB045 106.89%);
+
+}
+.profilebtnborder{
+    border-left: 2px solid #FFD60A
+}
+
+.studentSideBarBorder{
+    border-bottom: 1px solid #424854
+}
+.studentSideBarSectionBorder{
+    border-left :2px solid #8f949c
+
+}
+.contactform{
+    border: 1px solid #424854
+}
+.blackButton {
+    @apply cursor-pointer rounded-md bg-richblack-800 px-[20px] py-[8px] font-semibold text-richblack-5;
+  }
