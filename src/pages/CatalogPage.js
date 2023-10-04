@@ -43,7 +43,7 @@ function CatalogPage() {
     },[categoryId]);
     const allCourseCategory = catalogPageData?.allCategory
     const courses = allCourseCategory
-    console.log(courses)
+    // console.log(courses)
 return (
      <div className='mx-auto text-white '>
             <div className='flex flex-col gap-[12px] bg-richblack-800  py-[32px] px-[90px] items-start justify-between'>

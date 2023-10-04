@@ -20,7 +20,7 @@ export async function createRatings (rating , reviews , course , userId , token)
             toast.dismiss(toastId)
             return
         }
-        console.log("response from review and ratings api " , response)
+        // console.log("response from review and ratings api " , response)
         toast.success(response?.data?.message)
         console.log(response?.data?.ratingAndReview)
         toast.dismiss(toastId)

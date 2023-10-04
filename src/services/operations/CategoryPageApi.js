@@ -8,13 +8,13 @@ export const getCategoryPageDetails = async(catId)=>{
        
         if(!response.data.success){
             toast.error("Not able to load page..")
-            console.log("Response from category page Details..." , response.data)
+            // console.log("Response from category page Details..." , response.data)
             toast.dismiss(toastId)
         }
         else{
             // toast.success("Courses with selected category")
             const result = response.data.data
-            console.log("Response from category page Details..." , response.data.data)
+            // console.log("Response from category page Details..." , response.data.data)
             
             toast.dismiss(toastId)
             return result
